@@ -69,7 +69,7 @@ let generateCartItems = data => {
     shoppingCar.innerHTML = ``
     label.innerHTML = `
     <h2>Carrinho Vazio</h2>
-    <a href="/index.html">
+    <a href="../index.html">
       <button class="HomeBtn">Volte as Compras</button>
     </a>
     `
