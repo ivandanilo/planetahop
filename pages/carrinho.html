@@ -1,0 +1,155 @@
+<!--
+  HTML
+
+  HyperText
+    Hiper Texto
+    Links
+  Markup
+    Tag - Marcação de texto
+  Language
+    Maneira de escrever
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlantShopCarrinho</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    
+    <nav id="navigation">
+      <div class="wrapper">
+        <a class="logo" href="/index.html">
+          <img src="/imagens/logo.png" alt="Logo em branco escrito Planetashop e um planeta">
+            
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="home" href="/index.html">Início</a>
+            </li>
+            <li><a class="product" href="/index.html#product">Produtos</a></li>
+          </ul>
+          
+          <div class="menu2">
+                <a href="carrinho.html">
+                  <div class="carrinhoCompra">
+                      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/  svg">
+                        <path d="M21.9467 14.2454L21.9467 14.2454C21.9424 14.2643 21.9256 14.2778 21.9061 14.2778H9.18281H7.95758L8.2031 15.4782L8.48717 16.8671L8.65071 17.6667H9.46688H21.117C21.1272 17.6667 21.132 17.6686 21.1349 17.6701C21.139 17.6721 21.1445 17.676 21.1495 17.6824C21.1546 17.6887 21.1572 17.6948 21.1583 17.6994C21.159 17.7025 21.1599 17.7076 21.1576 17.7176L20.9924 18.4445H19.1329H10.0337H8.01594L5.0545 3.9663L4.89094 3.16669H4.07478H1.04167C1.01865 3.16669 1 3.14805 1 3.12503V2.43058C1 2.40756 1.01865 2.38892 1.04167 2.38892H5.49171C5.51155 2.38892 5.52857 2.40288 5.53251 2.42216L5.53253 2.42222L5.93036 4.3671L6.09391 5.16669H6.91007H23.9579C23.9682 5.16669 23.9729 5.16864 23.9758 5.17008C23.98 5.17214 23.9854 5.17605 23.9904 5.18237C23.9955 5.18868 23.9981 5.19484 23.9992 5.19936C23.9999 5.20251 24.0008 5.2076 23.9985 5.2176L21.9467 14.2454ZM19.8327 20.1588L20.8233 19.1884L20.7421 19.5457L21.4566 19.8925C21.9366 20.1255 22.2639 20.6158 22.2639 21.1806C22.2639 21.9707 21.6234 22.6111 20.8333 22.6111C20.0433 22.6111 19.4028 21.9707 19.4028 21.1806C19.4028 20.7805 19.5661 20.42 19.8327 20.1588ZM8.24814 19.5797L8.12422 18.9739L9.33391 20.1588C9.60058 20.4201 9.76389 20.7805 9.76389 21.1806C9.76389 21.9707 9.12341 22.6111 8.33333 22.6111C7.54326 22.6111 6.90278 21.9707 6.90278 21.1806C6.90278 20.6516 7.18985 20.1883 7.62227 19.9396L8.24814 19.5797Z" stroke="white" stroke-width="2"/>
+                      </svg>
+
+                      <div id="qtdCar" class="qtdCar">0</div>
+
+                  </div>
+                </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="homeCarrinho">
+      <div class="wrapper">
+
+        <div id="label" class="text-center">
+        </div>
+
+      <div class="shopping-car" id="shopping-car">
+        
+      </div>
+    
+    </section>
+
+    <footer id="rodape">
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="logo" href="#home">
+            <img src="/imagens/logo2.png" alt="Logo em branco escrito Planetashop e um planeta">
+              
+          </a>
+
+          <p>
+            ©2022 PlanetaShop<br />
+            Todos os direitos reservados.
+          </p>
+        </div>
+
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="http://instagram.com/ivandanilo_"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 6.49997H17.51"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://facebook.com/ivandanilo_"
+                ><svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 1.99997H15C13.6739 1.99997 12.4021 2.52675 11.4645 3.46444C10.5268 4.40212 10 5.67389 10 6.99997V9.99997H7V14H10V22H14V14H17L18 9.99997H14V6.99997C14 6.73475 14.1054 6.4804 14.2929 6.29286C14.4804 6.10533 14.7348 5.99997 15 5.99997H18V1.99997Z"
+                    stroke="#FFFAF1"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ScrollReveal Lib-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="/js/carrinho.js"></script>
+  </body>
+</html>
