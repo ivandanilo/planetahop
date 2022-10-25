@@ -473,7 +473,7 @@ nav#navigation.scroll .menu a.button:hover {
 }
 
 .seachInput {
-  width: 50rem;
+  width: 25rem;
   border-radius: 5px;
 }
 
@@ -680,6 +680,11 @@ display: initial;
   #product .card {
     width: 30%;
     flex-grow: 1;
+  }
+
+  .seachInput {
+  width: 50rem;
+  border-radius: 5px;
   }
 
   /* ====== ABOUT ============ */
